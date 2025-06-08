@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: stripe
+      description: This is a replica of the Postgres database used by our app
+      database: dbt-tutorial
+      schema: stripe
+      tables:
+          - name: payment
+            description: Payment records for orders
