@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Bring in payments data from stripe
+    columns:
+      - name: id
+        description: unique payment id
+      - name: orderid
+        description: order associated with a unique payment id
+      
